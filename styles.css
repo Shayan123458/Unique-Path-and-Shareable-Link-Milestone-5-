@@ -3,17 +3,18 @@ css
 body {
     font-family: Arial, sans-serif;
     background-color: #8ebd0f;
-    text-underline-offset: #000000; ;
+    text-underline-offset: #fdfcfc; ;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width: 50%;
     margin: auto;
-    padding: 20px;
-    background-color: rgb(226, 131, 7);
+    padding: 40px;
+    background-color: rgb(172, 135, 36);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 header {
@@ -27,9 +28,23 @@ header {
 }
 
 h1, h2 {
-    color: #55084b;
+    color: #020202;
 }
 
+p {
+    color: #161616;
+}
+
+li {
+    color: #0c0c0c;
+}
+
+li {
+    color: #0d0e0d;
+}
+.p text{
+    size: 30;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -43,7 +58,7 @@ button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #063009;
+    background-color: #000000;
     color: white;
     border: black;
     cursor: pointer;
@@ -51,7 +66,7 @@ button {
 }
 
 button:hover {
-    background-color: #33db1d;
+    background-color: #812d2d;
 }
 
 /* Responsive Design */
