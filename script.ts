@@ -1,4 +1,6 @@
 // script.ts
+console.log("Script is running");
+
 const toggleSkillsButton = document.getElementById('toggle-skills');
 const skillsSection = document.getElementById('skills');
 

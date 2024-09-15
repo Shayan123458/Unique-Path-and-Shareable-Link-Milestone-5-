@@ -1,4 +1,5 @@
 // script.ts
+console.log("Script is running");
 var toggleSkillsButton = document.getElementById('toggle-skills');
 var skillsSection = document.getElementById('skills');
 toggleSkillsButton === null || toggleSkillsButton === void 0 ? void 0 : toggleSkillsButton.addEventListener('click', function () {
